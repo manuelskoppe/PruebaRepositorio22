@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+
+/*function petalos(petal1,petal2){
+
+ let enamorados=petal1+petal2;   
+
+if(enamorados%2==0) return "they are in love";
+
+else {
+
+ document.write("they are not in love")
+
+}
+
+}
+
+console.log(petalos(3,4));*/
+
+
+/*function saludo_personalizado(name,owner){
+
+
+if(name==owner) return  document.write("hello boss");
+
+else return document.write("hello guest");
+
+
+
+}
+
+
+console.log(saludo_personalizado("luis","pedro"));*/
+
+/*let la_liga=43;
+
+let Champions_League=10;
+
+let Copa_del_Rey=5;
+
+totalGoals=Copa_del_Rey+Champions_League+la_liga;
+
+document.write(totalGoals);*/
+
+
+/*function multiply(number1,number2){
+
+let multiplicacion=number1*number2;
+
+return document.write(multiplicacion);
+
+
+}
+
+console.log(multiply(2,4));*/
+
+
+/*let Birthday=prompt("introduce tu año de nacimiento");
+
+let consulta=prompt("introduce el año que quieres saber tu edad");
+
+
+function calculo_edad(añoNacimiento,añoAsaber){
+
+let resultado=añoAsaber-añoNacimiento;
+
+ return document.write("en el año " + consulta + " tendras " + resultado + " años ");
+
+1995
+}
+
+calculo_edad(Birthday,consulta);*/
+
+
+/*const numeros=[1,2,3,4,5,6,7,8];
+
+const numerosOrdenados=numeros.sort((a, b) => b - a);
+
+const dosNumerosMasAltos = numerosOrdenados.slice(0, 2);
+
+console.log("Los dos números más altos son:", dosNumerosMasAltos);*/
+
+
+
+/*const numero = 3456;
+
+function numerosAlreves(num1) {
+  // Convierte el número en una cadena de texto
+  const numStr = num1.toString();
+
+  // Divide la cadena en un array de caracteres
+  const numArray = numStr.split('');
+
+  // Invierte el orden del array
+  const numArrayReversed = numArray.reverse();
+
+  // Si necesitas convertirlos nuevamente en números
+  const numerosReversos = numArrayReversed.map(Number);
+
+  return numerosReversos;
+}
+
+const resultado = numerosAlreves(numero);
+console.log(resultado); // Resultado: [6, 5, 4, 3]*/
+
+
+
+/*const array1 = [1, 2, 3, 4];
+const array2 = [5, 6, 7, 8];
+
+function sumar(arr1, arr2) {
+  // Utiliza reduce para sumar los elementos de cada array
+  const sumaArray1 = arr1.reduce((total, num) => total + num, 0);
+  const sumaArray2 = arr2.reduce((total, num) => total + num, 0);
+
+  // Suma los resultados de ambas sumas
+  const total = sumaArray1 + sumaArray2;
+
+  return total;
+}
+
+const resultado = sumar(array1, array2);
+document.write(resultado); // Muestra el resultado en el documento*/
+
+
+const string = prompt("Introduce una palabra palíndroma");
+
+function isPalindrome(str) {
+  const reversedStr = str.split("").reverse().join("");
+
+  if (str === reversedStr) {
+    document.write("Es un palíndromo");
+  } else {
+    document.write("No es un palíndromo");
+  }
+}
+
+isPalindrome(string);
+
+
+</script>
+</body>
+</html>
